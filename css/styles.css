@@ -901,6 +901,7 @@ fill: transparent;
 .modal-check:checked+.check-text span {
 background-color: var(--brand-color);
 border: none;
+
 }
 
 .modal-check:checked+.check-text .check-icon {

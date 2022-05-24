@@ -597,6 +597,9 @@ outline: none;
 .footer-input:focus {
         border: 1px solid var(--brand-color);
 }
+.footer-input{
+color: #ffffff;
+}
 .footer-submit{
 position: relative;
 margin-left: 12px;

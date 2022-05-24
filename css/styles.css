@@ -69,17 +69,18 @@ margin: -1px;
 .header {
 background-color: var(--background-color);
 }
-.head.container {
-display: flex;
-}
-.header.line {
+
+.header--line {
 border-bottom-width: 1px;
 border-bottom-style: solid;
 border-bottom-color: #ECECEC;
 margin-bottom: -1px;
 }
+.container--flex {
+display: flex;
+}
 /* Header navigation */
-.header-nav {
+.header__nav {
 display: flex;
 align-items: center;
 justify-content: flex-start;

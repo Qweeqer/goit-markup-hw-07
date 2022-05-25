@@ -259,16 +259,16 @@ margin-bottom: 106px;
 
 
 /* <--------Feature section------------> */
-.feature-list {
+.feature__list {
 display: flex;
 justify-content: space-between;
 }
 
 /* Feature item content */
-.feature-item {
+.feature__item {
 width: 270px;
 }
-.feature-icon-list{
+.feature__icon-list{
 margin-bottom: 30px;
 width: 270px;
 height: 120px;
@@ -283,7 +283,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 } */
-.title {
+.feature__title {
 padding-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
@@ -293,7 +293,7 @@ text-transform: uppercase;
 color: var(--title);
 }
 
-.text {
+.feature__text {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -301,10 +301,10 @@ color: var(--secondary-text);
 }
 
 /* <--What-we-do Project section--> */
-.project.section{
+.project__section{
 padding-top: 0;
 }
-.project-title,
+.project__title,
 .team__title {
 font-weight: 700;
 font-size: 36px;
@@ -314,21 +314,21 @@ letter-spacing: 0.03em;
 color: var(--title);
 }
 /* /-----------project list/-------- */
-.project-list {
+.project__list {
 display: flex;
 justify-content: space-between;
 padding-top: 50px;}
-.project-item{
+.project__item{
 z-index: -1;
 }
 /* /-----project-top-wrap-----/ */
-.project-top-wrap{
+.project__top-wrap{
 position: relative;
 width: 100%;
 min-height: 70px;
 display: flex;
 }
-.project-top-text{
+.project__top-text{
 position: absolute;
 bottom: 0;
 width: 100%;
@@ -417,7 +417,7 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /* <-----------Clients section------------> */
 
-.clients-title{
+.clients__title{
 margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
@@ -426,12 +426,12 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.clients-list{
+.clients__list{
 display:flex;
 align-items: center;
 justify-content: space-between;
 }
-.clients-link{
+.clients__link{
 width: 170px;
 height: 92px;
 display: flex;
@@ -443,19 +443,18 @@ outline: none;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
 border: 1px solid #2196F3;
 fill: var(--brand-color);
-
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon {
 fill: var(--brand-color);
 }
 
-.clients-icon {
+.clients__icon {
 fill: #AFB1B8;
 transition: fill 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }

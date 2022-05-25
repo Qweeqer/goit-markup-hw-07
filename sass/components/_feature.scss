@@ -1,0 +1,37 @@
+.feature__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Feature item content */
+.feature__item {
+    width: 270px;
+}
+
+.feature__icon-list {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--button-text-color);
+    border-radius: 4px;
+}
+
+.feature__title {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title);
+}
+
+.feature__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text);
+}

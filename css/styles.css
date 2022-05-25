@@ -5,9 +5,10 @@
 --background-color: #FFFFFF;
 --background-secondary: #E5E5E5;
 --brand-color: #2196F3;
---button-color: #F5F4FA;
+--button-text-color: #F5F4FA;
 --secondary-text: #757575;
 --hero-footer-bg: #2F303A;
+--brand-font-family:'Raleway';
 }
 /* outline: 2px solid tomato; */
 
@@ -71,7 +72,7 @@ visibility: hidden;
 }
 /* <--Logo--> */
 .logo {
-font-family: 'Raleway';
+font-family: var(--brand-font-family);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -242,7 +243,7 @@ padding-top: 106px;
 padding-bottom: 30px;
 width: 696px;
 /* text-align: center; */
-color: var(--button-color);
+color: var(--button-text-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -274,7 +275,7 @@ height: 120px;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: var(--button-color);
+background-color: var(--button-text-color);
 border-radius: 4px;
 }
 /* .feature-icon{
@@ -284,7 +285,6 @@ justify-content: center;
 } */
 .title {
 padding-bottom: 10px;
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -305,7 +305,7 @@ color: var(--secondary-text);
 padding-top: 0;
 }
 .project-title,
-.team-title {
+.team__title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -347,19 +347,19 @@ color: #FFFFFF;
 }
 
 /*-------- Our team section ---------- */
-.team.section {
+.team__section {
 padding-top: 0;
-background-color: var(--button-color);
+background-color: var(--button-text-color);
 }
-.team-title {
+.team__title {
 padding-top: 94px;
 }
-.team-list {
+.members__list {
 padding-top: 50px;
 display: flex;
 justify-content: space-between;
 }
-.team-item {
+.members__card {
 background-color: var(--background-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -368,11 +368,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* Team item ::content */
-.team-img {
+.members__photo {
 padding-bottom: 30px;
 border-radius: 0px;
 }
-.name-title {
+.members__name {
 padding-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
@@ -381,7 +381,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--title);
 }
-.position-text {
+.members__position {
 padding-bottom: 16px;
 font-size: 14px;
 line-height: 1.18;
@@ -504,6 +504,9 @@ justify-content: space-between;
 padding-top: 60px;
 margin-bottom: 20px;
 display: inline-block;
+
+}
+.footer__logo--light{
 color: var(--hero-text);
 }
 /* address */
@@ -647,14 +650,14 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
-background: var(--button-color);
+background: var(--button-text-color);
 border-radius: 4px;
 border: transparent;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter-button {border-color: var(--button-color);}
+.filter-button {border-color: var(--button-text-color);}
 .filter-button:hover,
 .filter-button:focus,
 .current-button,

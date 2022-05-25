@@ -76,9 +76,10 @@ border-bottom-style: solid;
 border-bottom-color: #ECECEC;
 margin-bottom: -1px;
 }
-.container--flex {
-display: flex;
+.header__container{
+        display: flex;
 }
+
 /* Header navigation */
 .header__nav {
 display: flex;
@@ -87,8 +88,6 @@ justify-content: flex-start;
 }
 /* logo */
 .logo {
-padding-top: 24px;
-padding-bottom: 25px;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -96,6 +95,10 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--text-color);
 text-decoration: none;
+}
+.header__logo{
+padding-top: 24px;
+padding-bottom: 25px;
 }
 
 .style-web {

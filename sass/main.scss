@@ -2,6 +2,7 @@
 @import "./utils/common";
 @import "./utils/reset";
 @import "./utils/hidden";
+@import "./utils/mixins";
 
 
 @import "./components/_section";
@@ -13,6 +14,7 @@
 @import "./components/feature";
 @import "./components/project";
 @import "./components/team";
+@import "./components/social";
 @import "./components/project";
 @import "./components/clients";
 @import "./components/footer";

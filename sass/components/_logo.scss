@@ -4,3 +4,22 @@
     color: var(--text-color);
     text-decoration: none;
 }
+/* logo */
+.header__logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo__style-web {
+    color: var(--brand-color);
+}
+/* Footer logo */
+.footer__logo {
+    padding-top: 60px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+    &--light {
+        color: var(--hero-text);
+    }
+}

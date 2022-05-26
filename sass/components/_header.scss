@@ -14,14 +14,7 @@
 .header__nav {
     @include align(flex, center, flex-start);
 }
-/* logo */
-.header__logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-.logo__style-web {
-    color: var(--brand-color);
-}
+
 /* Main menu nav */
 .menu {
     @include font (500, 14px, 1.14, 0.02em);
@@ -34,7 +27,7 @@
             margin-right: 50px;
         }
 }
-.menu__link.current,
+
 .menu__link {
     display: block;
     padding-top: 32px;
